@@ -109,10 +109,10 @@ Feature: Basic Actions
     And  I click "Nikon D"
     And  I click "Nikon D5600"
     Then I see the following fields:
-      | Limited Time Deals |
+      | Authorized Seller |
       | Hot This Week      |
 
-  @WIP @HOMEWORK @IMPLEMENT_THIS
+  @HOMEWORK @IMPLEMENT_THIS
   Scenario: Check languages
     When I click "Stack button"
     And  I scroll to "Settings"
